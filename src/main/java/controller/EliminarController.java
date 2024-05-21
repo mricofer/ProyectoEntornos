@@ -1,2 +1,4 @@
-package controller;public class EliminarController {
+package controller;
+
+public class EliminarController {
 }

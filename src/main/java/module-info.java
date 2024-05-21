@@ -5,6 +5,6 @@ module com.example.proyectoentornos {
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.proyectoentornos to javafx.fxml;
-    exports com.example.proyectoentornos;
+    opens controller to javafx.fxml;
+    exports controller;
 }

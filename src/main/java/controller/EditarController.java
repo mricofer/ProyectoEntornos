@@ -1,2 +1,4 @@
-package controller;public class EditarController {
+package controller;
+
+public class EditarController {
 }

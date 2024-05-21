@@ -1,2 +1,4 @@
-package controller;public class VistaPrincipalController {
+package controller;
+
+public class VistaPrincipalController {
 }

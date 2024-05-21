@@ -1,2 +1,4 @@
-package controller;public class InsertarController {
+package controller;
+
+public class InsertarController {
 }
