@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="680.0" minWidth="1015.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmpresasController">
+   <children>
+      <TableView fx:id="tableEmpresas" layoutX="16.0" layoutY="404.0" onMouseClicked="#seleccionar" prefHeight="262.0" prefWidth="984.0">
+        <columns>
+            <TableColumn fx:id="colId" prefWidth="30.0" text="id" />
+            <TableColumn fx:id="colCodigoEmpresa" prefWidth="77.0" text="Código Empresa" />
+            <TableColumn fx:id="colCIF" prefWidth="72.0" text="CIF" />
+            <TableColumn fx:id="colDireccion" prefWidth="89.0" text="Dirección" />
+            <TableColumn fx:id="colNombreEmpresa" prefWidth="77.0" text="Nombre Empresa" />
+            <TableColumn fx:id="colCP" prefWidth="107.0" text="CP" />
+            <TableColumn fx:id="colLocalidad" prefWidth="75.0" text="Localidad" />
+            <TableColumn fx:id="colTipoJornada" prefWidth="75.0" text="Tipo jornada" />
+            <TableColumn fx:id="colModalidad" prefWidth="75.0" text="Modalidad" />
+            <TableColumn fx:id="colMail" prefWidth="75.0" text="mail" />
+            <TableColumn fx:id="colDNIResp" prefWidth="75.0" text="DNI resp." />
+            <TableColumn fx:id="colNombreResp" prefWidth="75.0" text="Nombre resp." />
+            <TableColumn fx:id="colApellidosResp" prefWidth="75.0" text="Apellidos resp." />
+            <TableColumn fx:id="colDNITut" prefWidth="75.0" text="DNI tut." />
+            <TableColumn fx:id="colNombreTut" prefWidth="75.0" text="Nombre tut." />
+            <TableColumn fx:id="colApellidosTut" prefWidth="75.0" text="Apellidos tut." />
+            <TableColumn fx:id="colTelefonoTut" prefWidth="75.0" text="Teléfono tut." />
+        </columns>
+      </TableView>
+      <TabPane layoutY="-3.0" prefHeight="402.0" prefWidth="1015.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Empresas">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="188.0" prefWidth="1015.0">
+                  <children>
+                      <Text layoutX="30.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Código empresa:" />
+                      <Text layoutX="309.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CIF:" />
+                      <TextField fx:id="textFieldCodigoEmpresa" layoutX="152.0" layoutY="101.0" prefHeight="30.0" prefWidth="110.0" />
+                      <TextField fx:id="textFieldCP" layoutX="464.0" layoutY="171.0" prefHeight="30.0" prefWidth="154.0" />
+                      <TextField fx:id="textFieldNombre" layoutX="587.0" layoutY="101.0" prefHeight="30.0" prefWidth="402.0" />
+                      <Text layoutX="517.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:" />
+                      <Text layoutX="30.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirección:" />
+                      <TextField fx:id="textFieldDireccion" layoutX="116.0" layoutY="171.0" prefHeight="30.0" prefWidth="284.0" />
+                      <Text layoutX="426.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CP:" />
+                      <TextField fx:id="textFieldCIF" layoutX="351.0" layoutY="101.0" prefHeight="30.0" prefWidth="137.0" />
+                      <Text layoutX="644.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Localidad:" />
+                      <TextField fx:id="textFieldLocalidad" layoutX="721.0" layoutY="171.0" prefHeight="30.0" prefWidth="269.0" />
+                      <Text layoutX="30.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jornada:" />
+                      <ComboBox fx:id="comboBoxJornada" layoutX="106.0" layoutY="238.0" prefHeight="30.0" prefWidth="125.0" />
+                      <Text layoutX="293.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modalidad:" />
+                      <ComboBox fx:id="comboBoxModalidad" layoutX="388.0" layoutY="239.0" prefHeight="30.0" prefWidth="145.0" />
+                      <Text layoutX="603.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail:" />
+                      <TextField fx:id="textFieldMail" layoutX="641.0" layoutY="239.0" prefHeight="30.0" prefWidth="354.0" />
+                      <Text layoutX="336.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion empresas: Empresa" textAlignment="CENTER" wrappingWidth="343.7646484375">
+                          <font>
+                              <Font size="25.0" />
+                          </font>
+                      </Text>
+                      <Button fx:id="btnInsertarEmpresa" layoutX="427.0" layoutY="301.0" mnemonicParsing="false" onAction="#insertarEmpresa" prefHeight="44.0" prefWidth="177.0" text="Insertar" />
+                      <Button fx:id="btnModificarEmpresa" layoutX="221.0" layoutY="301.0" mnemonicParsing="false" onAction="#modificarEmpresa" prefHeight="44.0" prefWidth="177.0" text="Modificar" />
+                      <Button fx:id="btnEliminarEmpresa" layoutX="637.0" layoutY="301.0" mnemonicParsing="false" onAction="#eliminarEmpresa" prefHeight="44.0" prefWidth="177.0" text="Eliminar" />
+                  </children>
+              </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Personas">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                      <Button fx:id="btnModificarPersona" layoutX="310.0" layoutY="300.0" mnemonicParsing="false" onAction="#modificarPersona" prefHeight="44.0" prefWidth="177.0" text="Modificar" />
+                      <Button fx:id="btnEliminarPersona" layoutX="528.0" layoutY="300.0" mnemonicParsing="false" onAction="#eliminarPersona" prefHeight="44.0" prefWidth="177.0" text="Eliminar" />
+                      <Text layoutX="336.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion empresas: Personas" textAlignment="CENTER" wrappingWidth="343.7646484375">
+                          <font>
+                              <Font size="25.0" />
+                          </font>
+                      </Text>
+                      <Text layoutX="38.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI Rep. Legal" />
+                      <TextField fx:id="textFieldDNIRepLegal" layoutX="149.0" layoutY="78.0" />
+                      <Text layoutX="356.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre RL" />
+                      <TextField fx:id="textFieldNombreRL" layoutX="445.0" layoutY="78.0" />
+                      <Text layoutX="643.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos RL" />
+                      <TextField fx:id="textFieldApellidosRL" layoutX="735.0" layoutY="78.0" prefHeight="30.0" prefWidth="243.0" />
+                      <TextField fx:id="textFieldDNITutLab" layoutX="161.0" layoutY="153.0" />
+                      <Text layoutX="38.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI Tutor Laboral" />
+                      <Text layoutX="370.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre TL" />
+                      <TextField fx:id="textFieldNombreTL" layoutX="445.0" layoutY="153.0" />
+                      <TextField fx:id="textFieldApellidosTL" layoutX="729.0" layoutY="153.0" prefHeight="30.0" prefWidth="250.0" />
+                      <Text layoutX="645.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos TL" />
+                        <Text layoutX="38.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono TL" />
+                        <TextField fx:id="textFieldTelefonoTL" layoutX="129.0" layoutY="220.0" prefHeight="30.0" prefWidth="198.0" />
+                  </children>
+              </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

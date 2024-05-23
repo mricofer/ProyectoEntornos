@@ -4,30 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f55c41-026a-48fb-adb0-039f81bd60bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EditarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EliminarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/InsertarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ModificarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/VistaPrincipalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaEditar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaEliminar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaInsertar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaModificar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaPrincipal.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/style.css" afterDir="false" />
+    <list default="true" id="f9f55c41-026a-48fb-adb0-039f81bd60bc" name="Changes" comment="🎉 Begin the proyect">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScriptCreacion.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AlumnosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AsignacionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EmpresasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/TutorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Asignacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaAlumnos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaEmpresa.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/VistaTutor.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EditarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EliminarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/InsertarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ModificarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/VistaPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/VistaPrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/VistaEditar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/VistaAsignacion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/VistaEliminar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/VistaInsertar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/VistaModificar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/VistaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/VistaPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +58,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gnSNLGGH6Ftg44AVOzFCsWyVjA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,20 +72,38 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ConectionDB.executor": "Run",
+    "Application.ConnectionDB.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maikel_rich/IdeaProjects/ProyectoEntornos/src/main/resources/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maikel_rich\IdeaProjects\ProyectoEntornos\src\main\resources\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maikel_rich\IdeaProjects\ProyectoEntornos" />
+      <recent name="C:\Users\Maikel_rich\IdeaProjects\ProyectoEntornos\src\main\java\utils" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,14 +119,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716331812248</updated>
-      <workItem from="1716331813300" duration="2050000" />
+      <workItem from="1716331813300" duration="2436000" />
+      <workItem from="1716369906308" duration="22291000" />
+      <workItem from="1716411782695" duration="20689000" />
     </task>
+    <task id="LOCAL-00001" summary="🎉 Begin the proyect">
+      <option name="closed" value="true" />
+      <created>1716334218241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716334218241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=" Begin the proyect" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Begin the proyect" />
   </component>
 </project>

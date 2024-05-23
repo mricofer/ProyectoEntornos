@@ -1,9 +1,9 @@
-.button {
+Button{
     -fx-background-color: #0fa997;
-    -fx-fill: #ffffff;
+    -fx-text-fill: #ffffff;
 }
 
-.button:hover {
+Button:hover{
     -fx-background-color: #0d786f;
 }
 

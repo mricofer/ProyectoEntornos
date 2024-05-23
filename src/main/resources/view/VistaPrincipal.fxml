@@ -13,12 +13,12 @@
    <children>
       <Text layoutX="127.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestión de datos de empresas" textAlignment="CENTER" wrappingWidth="345.6552734375">
          <font>
-            <Font size="25.0" />
+            <Font size="25.0"/>
          </font>
       </Text>
-      <Button styleClass="button" layoutX="190.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Modificar" />
-      <Button styleClass="button" layoutX="316.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Eliminar" />
-      <Button styleClass="button" layoutX="63.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Insertar" />
-      <Button styleClass="button" layoutX="443.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Asignar" />
+      <Button fx:id="btnRedireccionarEmpresas" onAction="#redireccionarEmpresas" layoutX="190.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Empresas" />
+      <Button fx:id="btnRedireccionarAlumnos" onAction="#redireccionarAlumnos" layoutX="316.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Alumnos" />
+      <Button fx:id="btnRedireccionarTutores" onAction="#redireccionarTutores" layoutX="63.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Tutores" />
+      <Button fx:id="btnRedireccionarAsignar" onAction="#redireccionarAsignar" layoutX="443.0" layoutY="176.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="93.0" text="Asignar" />
    </children>
 </AnchorPane>
